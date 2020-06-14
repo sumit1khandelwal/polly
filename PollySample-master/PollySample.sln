@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0E340E14-8C7B-4635-8E2F-DDD560F6F169}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PollyPocApplication", "src\PollyPocApplication\PollyPocApplication.csproj", "{ED051272-EC25-42D2-8945-A4EB3619A237}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PollyPocAPIApplication", "src\PollyPocAPIApplication\PollyPocAPIApplication.csproj", "{AF87F28E-6477-4F03-A144-05991E2ABAA0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2ECCDDCB-3B78-43B5-BF73-0DE48FCDABBD}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+		src\images\retrywithoutpolly.JPG = src\images\retrywithoutpolly.JPG
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED051272-EC25-42D2-8945-A4EB3619A237}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED051272-EC25-42D2-8945-A4EB3619A237}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED051272-EC25-42D2-8945-A4EB3619A237}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED051272-EC25-42D2-8945-A4EB3619A237}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF87F28E-6477-4F03-A144-05991E2ABAA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF87F28E-6477-4F03-A144-05991E2ABAA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF87F28E-6477-4F03-A144-05991E2ABAA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF87F28E-6477-4F03-A144-05991E2ABAA0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ED051272-EC25-42D2-8945-A4EB3619A237} = {0E340E14-8C7B-4635-8E2F-DDD560F6F169}
+		{AF87F28E-6477-4F03-A144-05991E2ABAA0} = {0E340E14-8C7B-4635-8E2F-DDD560F6F169}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {78F8B676-AE41-44EF-9D48-A48CB95E364B}
+	EndGlobalSection
+EndGlobal

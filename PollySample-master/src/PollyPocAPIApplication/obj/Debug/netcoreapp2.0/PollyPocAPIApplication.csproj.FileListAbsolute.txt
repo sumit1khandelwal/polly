@@ -1,0 +1,13 @@
+D:\Personal\Polly\PollySample-master\src\PollyPocAPIApplication\bin\Debug\netcoreapp2.0\appsettings.Development.json
+D:\Personal\Polly\PollySample-master\src\PollyPocAPIApplication\bin\Debug\netcoreapp2.0\appsettings.json
+D:\Personal\Polly\PollySample-master\src\PollyPocAPIApplication\bin\Debug\netcoreapp2.0\Properties\launchSettings.json
+D:\Personal\Polly\PollySample-master\src\PollyPocAPIApplication\bin\Debug\netcoreapp2.0\PollyPocAPIApplication.deps.json
+D:\Personal\Polly\PollySample-master\src\PollyPocAPIApplication\bin\Debug\netcoreapp2.0\PollyPocAPIApplication.runtimeconfig.json
+D:\Personal\Polly\PollySample-master\src\PollyPocAPIApplication\bin\Debug\netcoreapp2.0\PollyPocAPIApplication.runtimeconfig.dev.json
+D:\Personal\Polly\PollySample-master\src\PollyPocAPIApplication\bin\Debug\netcoreapp2.0\PollyPocAPIApplication.dll
+D:\Personal\Polly\PollySample-master\src\PollyPocAPIApplication\bin\Debug\netcoreapp2.0\PollyPocAPIApplication.pdb
+D:\Personal\Polly\PollySample-master\src\PollyPocAPIApplication\obj\Debug\netcoreapp2.0\PollyPocAPIApplication.csprojAssemblyReference.cache
+D:\Personal\Polly\PollySample-master\src\PollyPocAPIApplication\obj\Debug\netcoreapp2.0\PollyPocAPIApplication.AssemblyInfoInputs.cache
+D:\Personal\Polly\PollySample-master\src\PollyPocAPIApplication\obj\Debug\netcoreapp2.0\PollyPocAPIApplication.AssemblyInfo.cs
+D:\Personal\Polly\PollySample-master\src\PollyPocAPIApplication\obj\Debug\netcoreapp2.0\PollyPocAPIApplication.dll
+D:\Personal\Polly\PollySample-master\src\PollyPocAPIApplication\obj\Debug\netcoreapp2.0\PollyPocAPIApplication.pdb
