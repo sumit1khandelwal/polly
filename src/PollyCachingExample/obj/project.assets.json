@@ -2082,20 +2082,6 @@
           "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {}
         }
       },
-      "Microsoft.Extensions.Http.Polly/2.1.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Http": "2.1.0",
-          "Polly": "6.0.1",
-          "Polly.Extensions.Http": "2.0.1"
-        },
-        "compile": {
-          "lib/netstandard2.0/Microsoft.Extensions.Http.Polly.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.Http.Polly.dll": {}
-        }
-      },
       "Microsoft.Extensions.Identity.Core/2.1.1": {
         "type": "package",
         "dependencies": {
@@ -2623,11 +2609,11 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.VisualStudio.Web.CodeGeneration/2.1.10": {
+      "Microsoft.VisualStudio.Web.CodeGeneration/2.1.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection": "2.1.1",
-          "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore": "2.1.10"
+          "Microsoft.Extensions.DependencyInjection": "2.1.0",
+          "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore": "2.1.0"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.VisualStudio.Web.CodeGeneration.dll": {}
@@ -2636,7 +2622,7 @@
           "lib/netstandard2.0/Microsoft.VisualStudio.Web.CodeGeneration.dll": {}
         }
       },
-      "Microsoft.VisualStudio.Web.CodeGeneration.Contracts/2.1.10": {
+      "Microsoft.VisualStudio.Web.CodeGeneration.Contracts/2.1.0": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "11.0.2"
@@ -2648,11 +2634,11 @@
           "lib/netstandard2.0/Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll": {}
         }
       },
-      "Microsoft.VisualStudio.Web.CodeGeneration.Core/2.1.10": {
+      "Microsoft.VisualStudio.Web.CodeGeneration.Core/2.1.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection": "2.1.1",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Templating": "2.1.10",
+          "Microsoft.Extensions.DependencyInjection": "2.1.0",
+          "Microsoft.VisualStudio.Web.CodeGeneration.Templating": "2.1.0",
           "Newtonsoft.Json": "11.0.2"
         },
         "compile": {
@@ -2662,10 +2648,10 @@
           "lib/netstandard2.0/Microsoft.VisualStudio.Web.CodeGeneration.Core.dll": {}
         }
       },
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design/2.1.10": {
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design/2.1.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.VisualStudio.Web.CodeGenerators.Mvc": "2.1.10"
+          "Microsoft.VisualStudio.Web.CodeGenerators.Mvc": "2.1.0"
         },
         "compile": {
           "lib/netstandard2.0/dotnet-aspnet-codegenerator-design.dll": {}
@@ -2674,10 +2660,10 @@
           "lib/netstandard2.0/dotnet-aspnet-codegenerator-design.dll": {}
         }
       },
-      "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore/2.1.10": {
+      "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore/2.1.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.VisualStudio.Web.CodeGeneration.Core": "2.1.10"
+          "Microsoft.VisualStudio.Web.CodeGeneration.Core": "2.1.0"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll": {}
@@ -2686,12 +2672,12 @@
           "lib/netstandard2.0/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll": {}
         }
       },
-      "Microsoft.VisualStudio.Web.CodeGeneration.Templating/2.1.10": {
+      "Microsoft.VisualStudio.Web.CodeGeneration.Templating/2.1.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Razor.Language": "2.1.1",
+          "Microsoft.AspNetCore.Razor.Language": "2.1.0",
           "Microsoft.CodeAnalysis.CSharp": "2.8.0",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Utils": "2.1.10"
+          "Microsoft.VisualStudio.Web.CodeGeneration.Utils": "2.1.0"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll": {}
@@ -2700,13 +2686,13 @@
           "lib/netstandard2.0/Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll": {}
         }
       },
-      "Microsoft.VisualStudio.Web.CodeGeneration.Utils/2.1.10": {
+      "Microsoft.VisualStudio.Web.CodeGeneration.Utils/2.1.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.CodeAnalysis.CSharp.Workspaces": "2.8.0",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Contracts": "2.1.10",
+          "Microsoft.VisualStudio.Web.CodeGeneration.Contracts": "2.1.0",
           "Newtonsoft.Json": "11.0.2",
-          "NuGet.Frameworks": "4.7.0"
+          "NuGet.Frameworks": "4.7.0-rtm.5148"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll": {}
@@ -2715,10 +2701,10 @@
           "lib/netstandard2.0/Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll": {}
         }
       },
-      "Microsoft.VisualStudio.Web.CodeGenerators.Mvc/2.1.10": {
+      "Microsoft.VisualStudio.Web.CodeGenerators.Mvc/2.1.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.VisualStudio.Web.CodeGeneration": "2.1.10"
+          "Microsoft.VisualStudio.Web.CodeGeneration": "2.1.0"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll": {}
@@ -2787,7 +2773,7 @@
           "lib/netstandard1.3/Newtonsoft.Json.Bson.dll": {}
         }
       },
-      "NuGet.Frameworks/4.7.0": {
+      "NuGet.Frameworks/4.7.0-rtm.5148": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "1.6.1"
@@ -2799,13 +2785,16 @@
           "lib/netstandard1.6/NuGet.Frameworks.dll": {}
         }
       },
-      "Polly/6.0.1": {
+      "Polly/5.6.1": {
         "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1"
+        },
         "compile": {
-          "lib/netstandard2.0/Polly.dll": {}
+          "lib/netstandard1.1/Polly.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/Polly.dll": {}
+          "lib/netstandard1.1/Polly.dll": {}
         }
       },
       "Polly.Caching.MemoryCache/1.0.0": {
@@ -2820,18 +2809,6 @@
         },
         "runtime": {
           "lib/netstandard1.3/Polly.Caching.MemoryCache.dll": {}
-        }
-      },
-      "Polly.Extensions.Http/2.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Polly": "6.0.1"
-        },
-        "compile": {
-          "lib/netstandard2.0/Polly.Extensions.Http.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Polly.Extensions.Http.dll": {}
         }
       },
       "Remotion.Linq/2.2.0": {
@@ -6585,19 +6562,6 @@
         "microsoft.extensions.http.nuspec"
       ]
     },
-    "Microsoft.Extensions.Http.Polly/2.1.0": {
-      "sha512": "ngb25N0dEBrpZ6Dr/V9cnx+YgOqmqlyGiIZlZewjYrD3NoDoVyxaTjhheBO4PfX+JX1tGaeB4spOf6OBhLHWrw==",
-      "type": "package",
-      "path": "microsoft.extensions.http.polly/2.1.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netstandard2.0/Microsoft.Extensions.Http.Polly.dll",
-        "lib/netstandard2.0/Microsoft.Extensions.Http.Polly.xml",
-        "microsoft.extensions.http.polly.2.1.0.nupkg.sha512",
-        "microsoft.extensions.http.polly.nuspec"
-      ]
-    },
     "Microsoft.Extensions.Identity.Core/2.1.1": {
       "sha512": "4dv6des0aRMNLgo+zbGy2Bp6Amy6YbVsSRB9VvSAqdTfhXAcLQ95AQdsLcqDhBI3H4s0sJxCdwmLDKQMbi0Vag==",
       "type": "package",
@@ -7280,49 +7244,49 @@
         "version.txt"
       ]
     },
-    "Microsoft.VisualStudio.Web.CodeGeneration/2.1.10": {
-      "sha512": "HCIqKUjVJiq5PN2vngvVz8e4/GLl1gqUwdUXPObF4xAQUTdlutfA8OTcjaIEF1YzAR95tbzCAwD15L3d6LLhrQ==",
+    "Microsoft.VisualStudio.Web.CodeGeneration/2.1.0": {
+      "sha512": "tJAzpotn5kRYCB/fOkCzIql3Ay8IYEPQen20KGF/hbPKhbntAK0Ctzp7P94PhEpnmTLjV59DPnUkA63egWYxcg==",
       "type": "package",
-      "path": "microsoft.visualstudio.web.codegeneration/2.1.10",
+      "path": "microsoft.visualstudio.web.codegeneration/2.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.VisualStudio.Web.CodeGeneration.dll",
         "lib/netstandard2.0/Microsoft.VisualStudio.Web.CodeGeneration.xml",
-        "microsoft.visualstudio.web.codegeneration.2.1.10.nupkg.sha512",
+        "microsoft.visualstudio.web.codegeneration.2.1.0.nupkg.sha512",
         "microsoft.visualstudio.web.codegeneration.nuspec"
       ]
     },
-    "Microsoft.VisualStudio.Web.CodeGeneration.Contracts/2.1.10": {
-      "sha512": "oEiesUAQqG1XaigyqRmwVk0oSEFxnZdz6M4+xqj+Ju/dGghktqJVYJOdlCpdsZTZP4s/tntt+mFbomuKBi5SRA==",
+    "Microsoft.VisualStudio.Web.CodeGeneration.Contracts/2.1.0": {
+      "sha512": "pO+kek1VPpZjREalJSTHpeQbk45K+7wfS4OqwDDO6wyxuDa2hAh3wPfAUXWBZwvUVIGl5MUd011dk5AgSL9orw==",
       "type": "package",
-      "path": "microsoft.visualstudio.web.codegeneration.contracts/2.1.10",
+      "path": "microsoft.visualstudio.web.codegeneration.contracts/2.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll",
         "lib/netstandard2.0/Microsoft.VisualStudio.Web.CodeGeneration.Contracts.xml",
-        "microsoft.visualstudio.web.codegeneration.contracts.2.1.10.nupkg.sha512",
+        "microsoft.visualstudio.web.codegeneration.contracts.2.1.0.nupkg.sha512",
         "microsoft.visualstudio.web.codegeneration.contracts.nuspec"
       ]
     },
-    "Microsoft.VisualStudio.Web.CodeGeneration.Core/2.1.10": {
-      "sha512": "JN5NlZlqMryeA8kXDgWsyrS3O3bGVDLfLgsUIT2baLFMIQOrLOPx3HCKSvH5hOS+J4KtHu9PXm8X91QILKMIxQ==",
+    "Microsoft.VisualStudio.Web.CodeGeneration.Core/2.1.0": {
+      "sha512": "mR8ltgryLNu6uhZ2FULx0uuauDDVNDVjcUS3F4jneeE1Peq/eBX90ArarFWDqLAemUCn6TdYBTdGKAW9gu1F+w==",
       "type": "package",
-      "path": "microsoft.visualstudio.web.codegeneration.core/2.1.10",
+      "path": "microsoft.visualstudio.web.codegeneration.core/2.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.VisualStudio.Web.CodeGeneration.Core.dll",
         "lib/netstandard2.0/Microsoft.VisualStudio.Web.CodeGeneration.Core.xml",
-        "microsoft.visualstudio.web.codegeneration.core.2.1.10.nupkg.sha512",
+        "microsoft.visualstudio.web.codegeneration.core.2.1.0.nupkg.sha512",
         "microsoft.visualstudio.web.codegeneration.core.nuspec"
       ]
     },
-    "Microsoft.VisualStudio.Web.CodeGeneration.Design/2.1.10": {
-      "sha512": "IqUmvUZ9QCBkwJZxUrpRB1t/luIOnF1cVCkQ2fHP6v/pz1/2BP0A2DGrCpGQZJNgMSTFqvvcSUpI5ehIDvFWlA==",
+    "Microsoft.VisualStudio.Web.CodeGeneration.Design/2.1.0": {
+      "sha512": "rRIdoWMSVqEBqMJxjMixfAg3QOn9lCB1N/sbBG000+MU7FRfH7ebXmSTjZDdIDX+2gnPK05BADxzwYAyEBvOLA==",
       "type": "package",
-      "path": "microsoft.visualstudio.web.codegeneration.design/2.1.10",
+      "path": "microsoft.visualstudio.web.codegeneration.design/2.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -7330,7 +7294,7 @@
         "lib/net461/dotnet-aspnet-codegenerator-design.xml",
         "lib/netstandard2.0/dotnet-aspnet-codegenerator-design.dll",
         "lib/netstandard2.0/dotnet-aspnet-codegenerator-design.xml",
-        "microsoft.visualstudio.web.codegeneration.design.2.1.10.nupkg.sha512",
+        "microsoft.visualstudio.web.codegeneration.design.2.1.0.nupkg.sha512",
         "microsoft.visualstudio.web.codegeneration.design.nuspec",
         "runtimes/win-arm/lib/net461/dotnet-aspnet-codegenerator-design.exe",
         "runtimes/win-arm/lib/net461/dotnet-aspnet-codegenerator-design.xml",
@@ -7342,50 +7306,50 @@
         "runtimes/win7-x86/lib/net461/dotnet-aspnet-codegenerator-design.xml"
       ]
     },
-    "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore/2.1.10": {
-      "sha512": "B+vOry1z9hCnj1K3ZHWil1iKXpJfAQ57kwctvXTCLh5z92NMK4IwAS2hud4I/Viksz1M1YMPgDSCUf6q+Ywawg==",
+    "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore/2.1.0": {
+      "sha512": "WeUzdvqtTS3meP/RQLFYIQOLbi8fA4N6ddIdR3Db/4XIamVDtvH3V4Q4qNVc7/NqVaCA6Q80LqCDv1CBHLWmlg==",
       "type": "package",
-      "path": "microsoft.visualstudio.web.codegeneration.entityframeworkcore/2.1.10",
+      "path": "microsoft.visualstudio.web.codegeneration.entityframeworkcore/2.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Templates/DbContext/NewLocalDbContext.cshtml",
         "lib/netstandard2.0/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll",
         "lib/netstandard2.0/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.xml",
-        "microsoft.visualstudio.web.codegeneration.entityframeworkcore.2.1.10.nupkg.sha512",
+        "microsoft.visualstudio.web.codegeneration.entityframeworkcore.2.1.0.nupkg.sha512",
         "microsoft.visualstudio.web.codegeneration.entityframeworkcore.nuspec"
       ]
     },
-    "Microsoft.VisualStudio.Web.CodeGeneration.Templating/2.1.10": {
-      "sha512": "9DarhKUfbHUiFjim9y4FySfvdHZKaQB7WcR5AOwEYMRiIur6NxNKqH+n/Ljje/9WlWpdTVPTDePj5TZWHlzvcQ==",
+    "Microsoft.VisualStudio.Web.CodeGeneration.Templating/2.1.0": {
+      "sha512": "YrD9zibi2bTgABOb2murdspp+8paOUpgdEfDrUWzdBU9RgFtjXuz7powPJpYwHl8pxrDa8aPS4egE7z40A4Jvg==",
       "type": "package",
-      "path": "microsoft.visualstudio.web.codegeneration.templating/2.1.10",
+      "path": "microsoft.visualstudio.web.codegeneration.templating/2.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll",
         "lib/netstandard2.0/Microsoft.VisualStudio.Web.CodeGeneration.Templating.xml",
-        "microsoft.visualstudio.web.codegeneration.templating.2.1.10.nupkg.sha512",
+        "microsoft.visualstudio.web.codegeneration.templating.2.1.0.nupkg.sha512",
         "microsoft.visualstudio.web.codegeneration.templating.nuspec"
       ]
     },
-    "Microsoft.VisualStudio.Web.CodeGeneration.Utils/2.1.10": {
-      "sha512": "HvhLvuEaFfDUT5lmpNZJufPBmxK/i3himNz14JqEwakCScPfeJFQfuIigjQ0AAte7ssRHQl6PT72++aFpc2XmA==",
+    "Microsoft.VisualStudio.Web.CodeGeneration.Utils/2.1.0": {
+      "sha512": "NWph84//iSjEQlS9BIV0SukZiOSC3WJ5MvdyC9khiExo2caA8u5GlVyw/GKILm/p1l/Onx7cNkN+9JoeqtEBZg==",
       "type": "package",
-      "path": "microsoft.visualstudio.web.codegeneration.utils/2.1.10",
+      "path": "microsoft.visualstudio.web.codegeneration.utils/2.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll",
         "lib/netstandard2.0/Microsoft.VisualStudio.Web.CodeGeneration.Utils.xml",
-        "microsoft.visualstudio.web.codegeneration.utils.2.1.10.nupkg.sha512",
+        "microsoft.visualstudio.web.codegeneration.utils.2.1.0.nupkg.sha512",
         "microsoft.visualstudio.web.codegeneration.utils.nuspec"
       ]
     },
-    "Microsoft.VisualStudio.Web.CodeGenerators.Mvc/2.1.10": {
-      "sha512": "PKKvTxC/isyZjRtFSSfbzFlFNvLUL1JjEGex3YJQXhwGhGplIAQkDvm1PQDl9AgvrLtKv0OnUG80uq5p2I+4CA==",
+    "Microsoft.VisualStudio.Web.CodeGenerators.Mvc/2.1.0": {
+      "sha512": "5SiUa8dEHXfS1SJjdYqg5ry6GeMmqI0p8CmIWMajFk/cts6VNNlEee2wVL9znImKITCt7HCKusrl9IW1xNGGeg==",
       "type": "package",
-      "path": "microsoft.visualstudio.web.codegenerators.mvc/2.1.10",
+      "path": "microsoft.visualstudio.web.codegenerators.mvc/2.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -7480,6 +7444,7 @@
         "Templates/Identity/wwwroot/images/banner3.svg",
         "Templates/Identity/wwwroot/js/site.js",
         "Templates/Identity/wwwroot/js/site.min.js",
+        "Templates/Identity/wwwroot/lib/bootstrap/.bower.json",
         "Templates/Identity/wwwroot/lib/bootstrap/LICENSE",
         "Templates/Identity/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css",
         "Templates/Identity/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css.map",
@@ -7539,7 +7504,7 @@
         "lib/netstandard2.0/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll",
         "lib/netstandard2.0/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.xml",
         "lib/netstandard2.0/identitygeneratorfilesconfig.json",
-        "microsoft.visualstudio.web.codegenerators.mvc.2.1.10.nupkg.sha512",
+        "microsoft.visualstudio.web.codegenerators.mvc.2.1.0.nupkg.sha512",
         "microsoft.visualstudio.web.codegenerators.mvc.nuspec"
       ]
     },
@@ -7756,10 +7721,10 @@
         "newtonsoft.json.bson.nuspec"
       ]
     },
-    "NuGet.Frameworks/4.7.0": {
-      "sha512": "qbXaB76XYUVLocLBs8Z9TS/ERGK2wm797feO+0JEPFvT7o7MRadOR77mqaSD4J1k8G+DlZQyq+MlkCuxrkr3ag==",
+    "NuGet.Frameworks/4.7.0-rtm.5148": {
+      "sha512": "b2ddXsvAwWx4Q0dO/zptIWSdfZOOPHaO9YVH2aBseNx9zdbhufeD2vsdbNwNz+Pb1zTEUAJLw8cquQnYedRk7A==",
       "type": "package",
-      "path": "nuget.frameworks/4.7.0",
+      "path": "nuget.frameworks/4.7.0-rtm.5148",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -7769,26 +7734,25 @@
         "lib/net46/NuGet.Frameworks.xml",
         "lib/netstandard1.6/NuGet.Frameworks.dll",
         "lib/netstandard1.6/NuGet.Frameworks.xml",
-        "nuget.frameworks.4.7.0.nupkg.sha512",
+        "nuget.frameworks.4.7.0-rtm.5148.nupkg.sha512",
         "nuget.frameworks.nuspec"
       ]
     },
-    "Polly/6.0.1": {
-      "sha512": "nwL8qNLkrphkehUftQqJZOExH6sJ+PPWhkrksqoouAvy9TuEgYUjFujlUVC8PyYLIWIneR9R4opcFpPKn1HQ1A==",
+    "Polly/5.6.1": {
+      "sha512": "Zm6mTvN9qk1wJ5hIqQ6ogJvYFRFyzyprRLTR6cNvvGn+jKwSM0wu0pZpZU/kNubYdiXtMNju6DL+/ILS7UaYlg==",
       "type": "package",
-      "path": "polly/6.0.1",
+      "path": "polly/5.6.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "lib/net45/Polly.dll",
+        "lib/net45/Polly.pdb",
+        "lib/net45/Polly.xml",
         "lib/netstandard1.1/Polly.deps.json",
         "lib/netstandard1.1/Polly.dll",
         "lib/netstandard1.1/Polly.pdb",
         "lib/netstandard1.1/Polly.xml",
-        "lib/netstandard2.0/Polly.deps.json",
-        "lib/netstandard2.0/Polly.dll",
-        "lib/netstandard2.0/Polly.pdb",
-        "lib/netstandard2.0/Polly.xml",
-        "polly.6.0.1.nupkg.sha512",
+        "polly.5.6.1.nupkg.sha512",
         "polly.nuspec"
       ]
     },
@@ -7823,25 +7787,6 @@
         "lib/netstandard1.3/Polly.Caching.MemoryCache.xml",
         "polly.caching.memorycache.1.0.0.nupkg.sha512",
         "polly.caching.memorycache.nuspec"
-      ]
-    },
-    "Polly.Extensions.Http/2.0.1": {
-      "sha512": "9NPDm98bmtlzLHnMDJ4YHno88yZmBOzvks34coP73/1GJzabSUi217xISa4z+b7YO5TncZMQVM4O5ThlZwg8mQ==",
-      "type": "package",
-      "path": "polly.extensions.http/2.0.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netstandard1.1/Polly.Extensions.Http.deps.json",
-        "lib/netstandard1.1/Polly.Extensions.Http.dll",
-        "lib/netstandard1.1/Polly.Extensions.Http.pdb",
-        "lib/netstandard1.1/Polly.Extensions.Http.xml",
-        "lib/netstandard2.0/Polly.Extensions.Http.deps.json",
-        "lib/netstandard2.0/Polly.Extensions.Http.dll",
-        "lib/netstandard2.0/Polly.Extensions.Http.pdb",
-        "lib/netstandard2.0/Polly.Extensions.Http.xml",
-        "polly.extensions.http.2.0.1.nupkg.sha512",
-        "polly.extensions.http.nuspec"
       ]
     },
     "Remotion.Linq/2.2.0": {
@@ -12715,9 +12660,9 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "Microsoft.AspNetCore.App >= 2.1.1",
-      "Microsoft.Extensions.Http.Polly >= 2.1.0",
       "Microsoft.NETCore.App >= 2.1.0",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.1.10",
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.1.0",
+      "Polly >= 5.6.1",
       "Polly.Caching.MemoryCache >= 1.0.0"
     ]
   },
@@ -12728,11 +12673,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Personal\\Polly-policies\\src\\PollyPocAPIApplication\\PollyPocAPIApplication.csproj",
-      "projectName": "PollyPocAPIApplication",
-      "projectPath": "D:\\Personal\\Polly-policies\\src\\PollyPocAPIApplication\\PollyPocAPIApplication.csproj",
+      "projectUniqueName": "D:\\Personal\\Polly-policies\\src\\PollyCachingExample\\PollyCachingExample.csproj",
+      "projectName": "PollyCachingExample",
+      "projectPath": "D:\\Personal\\Polly-policies\\src\\PollyCachingExample\\PollyCachingExample.csproj",
       "packagesPath": "C:\\Users\\sumit.khandelwal\\.nuget\\packages\\",
-      "outputPath": "D:\\Personal\\Polly-policies\\src\\PollyPocAPIApplication\\obj\\",
+      "outputPath": "D:\\Personal\\Polly-policies\\src\\PollyCachingExample\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12767,10 +12712,6 @@
             "version": "[2.1.1, )",
             "autoReferenced": true
           },
-          "Microsoft.Extensions.Http.Polly": {
-            "target": "Package",
-            "version": "[2.1.0, )"
-          },
           "Microsoft.NETCore.App": {
             "suppressParent": "All",
             "target": "Package",
@@ -12779,7 +12720,11 @@
           },
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
-            "version": "[2.1.10, )"
+            "version": "[2.1.0, )"
+          },
+          "Polly": {
+            "target": "Package",
+            "version": "[5.6.1, )"
           },
           "Polly.Caching.MemoryCache": {
             "target": "Package",

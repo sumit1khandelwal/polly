@@ -21,7 +21,6 @@ D:\Personal\Polly-policies\src\PollyPocAPIApplication\bin\Debug\netcoreapp2.1\Po
 D:\Personal\Polly-policies\src\PollyPocAPIApplication\bin\Debug\netcoreapp2.1\PollyPocAPIApplication.runtimeconfig.dev.json
 D:\Personal\Polly-policies\src\PollyPocAPIApplication\bin\Debug\netcoreapp2.1\PollyPocAPIApplication.dll
 D:\Personal\Polly-policies\src\PollyPocAPIApplication\bin\Debug\netcoreapp2.1\PollyPocAPIApplication.pdb
-D:\Personal\Polly-policies\src\PollyPocAPIApplication\obj\Debug\netcoreapp2.1\PollyPocAPIApplication.csprojAssemblyReference.cache
 D:\Personal\Polly-policies\src\PollyPocAPIApplication\obj\Debug\netcoreapp2.1\PollyPocAPIApplication.RazorAssemblyInfo.cache
 D:\Personal\Polly-policies\src\PollyPocAPIApplication\obj\Debug\netcoreapp2.1\PollyPocAPIApplication.RazorAssemblyInfo.cs
 D:\Personal\Polly-policies\src\PollyPocAPIApplication\obj\Debug\netcoreapp2.1\PollyPocAPIApplication.AssemblyInfoInputs.cache
@@ -29,3 +28,4 @@ D:\Personal\Polly-policies\src\PollyPocAPIApplication\obj\Debug\netcoreapp2.1\Po
 D:\Personal\Polly-policies\src\PollyPocAPIApplication\obj\Debug\netcoreapp2.1\PollyPocAPIApplication.RazorTargetAssemblyInfo.cache
 D:\Personal\Polly-policies\src\PollyPocAPIApplication\obj\Debug\netcoreapp2.1\PollyPocAPIApplication.dll
 D:\Personal\Polly-policies\src\PollyPocAPIApplication\obj\Debug\netcoreapp2.1\PollyPocAPIApplication.pdb
+D:\Personal\Polly-policies\src\PollyPocAPIApplication\obj\Debug\netcoreapp2.1\PollyPocAPIApplication.csprojAssemblyReference.cache

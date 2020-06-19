@@ -15,6 +15,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		src\images\retrywithoutpolly.JPG = src\images\retrywithoutpolly.JPG
 	EndProjectSection
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PollyCachingExample", "src\PollyCachingExample\PollyCachingExample.csproj", "{F22C24B9-16B6-4A80-A5B6-FFEA4E81EF74}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{AF87F28E-6477-4F03-A144-05991E2ABAA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF87F28E-6477-4F03-A144-05991E2ABAA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF87F28E-6477-4F03-A144-05991E2ABAA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F22C24B9-16B6-4A80-A5B6-FFEA4E81EF74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F22C24B9-16B6-4A80-A5B6-FFEA4E81EF74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F22C24B9-16B6-4A80-A5B6-FFEA4E81EF74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F22C24B9-16B6-4A80-A5B6-FFEA4E81EF74}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,6 +42,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{ED051272-EC25-42D2-8945-A4EB3619A237} = {0E340E14-8C7B-4635-8E2F-DDD560F6F169}
 		{AF87F28E-6477-4F03-A144-05991E2ABAA0} = {0E340E14-8C7B-4635-8E2F-DDD560F6F169}
+		{F22C24B9-16B6-4A80-A5B6-FFEA4E81EF74} = {0E340E14-8C7B-4635-8E2F-DDD560F6F169}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {78F8B676-AE41-44EF-9D48-A48CB95E364B}

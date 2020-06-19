@@ -15,7 +15,6 @@ namespace PollyPocAPIApplication.Controllers.PollyBasicCircuitBreakerExample
     [Route("api/circuitbreaker/[controller]")]
     public class CatalogController : Controller
     {
-        readonly RetryPolicy<HttpResponseMessage> _httpRetryPolicy;
         private readonly IHttpClientFactory _httpClientFactory;
 
         private readonly CircuitBreakerPolicy<HttpResponseMessage> _breakerPolicy;
@@ -23,8 +22,6 @@ namespace PollyPocAPIApplication.Controllers.PollyBasicCircuitBreakerExample
         {
             _httpClientFactory = httpClientFactory;
             _breakerPolicy = breakerPolicy;
-            _httpRetryPolicy = Policy
-                                .HandleResult<HttpResponseMessage>(r => !r.IsSuccessStatusCode).RetryAsync(2);
         }
 
         [HttpGet("{id}")]
@@ -33,9 +30,8 @@ namespace PollyPocAPIApplication.Controllers.PollyBasicCircuitBreakerExample
             var httpClient = _httpClientFactory.CreateClient("InventoryClient");
             string requestEndpoint = $"circuitbreaker/inventory/{id}";
             HttpResponseMessage response = null;
-                 response = await _httpRetryPolicy.ExecuteAsync(
-                         () => _breakerPolicy.ExecuteAsync(
-                             () => httpClient.GetAsync(requestEndpoint)));
+                 response = await _breakerPolicy.ExecuteAsync(
+                             () => httpClient.GetAsync(requestEndpoint));
                 if (response.IsSuccessStatusCode)
                 {
                     int itemsInStock = JsonConvert.DeserializeObject<int>(await response.Content.ReadAsStringAsync());

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Personal\\Polly-policies\\src\\PollyPocAPIApplication\\PollyPocAPIApplication.csproj": {}
+    "D:\\Personal\\Polly-policies\\src\\PollyCachingExample\\PollyCachingExample.csproj": {}
   },
   "projects": {
-    "D:\\Personal\\Polly-policies\\src\\PollyPocAPIApplication\\PollyPocAPIApplication.csproj": {
+    "D:\\Personal\\Polly-policies\\src\\PollyCachingExample\\PollyCachingExample.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Personal\\Polly-policies\\src\\PollyPocAPIApplication\\PollyPocAPIApplication.csproj",
-        "projectName": "PollyPocAPIApplication",
-        "projectPath": "D:\\Personal\\Polly-policies\\src\\PollyPocAPIApplication\\PollyPocAPIApplication.csproj",
+        "projectUniqueName": "D:\\Personal\\Polly-policies\\src\\PollyCachingExample\\PollyCachingExample.csproj",
+        "projectName": "PollyCachingExample",
+        "projectPath": "D:\\Personal\\Polly-policies\\src\\PollyCachingExample\\PollyCachingExample.csproj",
         "packagesPath": "C:\\Users\\sumit.khandelwal\\.nuget\\packages\\",
-        "outputPath": "D:\\Personal\\Polly-policies\\src\\PollyPocAPIApplication\\obj\\",
+        "outputPath": "D:\\Personal\\Polly-policies\\src\\PollyCachingExample\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -46,10 +46,6 @@
               "version": "[2.1.1, )",
               "autoReferenced": true
             },
-            "Microsoft.Extensions.Http.Polly": {
-              "target": "Package",
-              "version": "[2.1.0, )"
-            },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
@@ -58,7 +54,11 @@
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[2.1.10, )"
+              "version": "[2.1.0, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[5.6.1, )"
             },
             "Polly.Caching.MemoryCache": {
               "target": "Package",

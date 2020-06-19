@@ -32,6 +32,7 @@ namespace PollyPocAPIApplication
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            #region Other ways of injecting policies
             //IAsyncPolicy<HttpResponseMessage> httpRetryPolicy =
             //   Policy.HandleResult<HttpResponseMessage>(r => !r.IsSuccessStatusCode).RetryAsync(3);
             //services.AddHttpClient("RemoteServer", client =>
@@ -39,15 +40,19 @@ namespace PollyPocAPIApplication
             //    client.BaseAddress = new Uri("http://aspnetmonsters.com");
             //    //client.DefaultRequestHeaders.Add("Accept", "application/json");
             //}).AddPolicyHandler(httpRetryPolicy);
+            #endregion
 
+            #region Advanced Circuit Breaker
             //CircuitBreakerPolicy<HttpResponseMessage> breakerPolicy = Policy
             //  .HandleResult<HttpResponseMessage>(r => !r.IsSuccessStatusCode)
             //  .AdvancedCircuitBreakerAsync(0.5, TimeSpan.FromSeconds(60), 7, TimeSpan.FromSeconds(15),
-            //      OnBreak, OnReset, OnHalfOpen);
+            //      OnBreak, OnReset, OnHalfOpen); 
+            #endregion
+
 
             CircuitBreakerPolicy<HttpResponseMessage> breakerPolicy = Policy
                 .HandleResult<HttpResponseMessage>(r => !r.IsSuccessStatusCode)
-                .CircuitBreakerAsync(2, TimeSpan.FromSeconds(60), OnBreak, OnReset, OnHalfOpen);
+                .CircuitBreakerAsync(2, TimeSpan.FromSeconds(10), OnBreak, OnReset, OnHalfOpen);
 
 
             BulkheadPolicy<HttpResponseMessage> bulkheadIsolationPolicy = Policy
@@ -64,6 +69,10 @@ namespace PollyPocAPIApplication
                 client.BaseAddress = new Uri("http://localhost:57697/api/");
                 client.DefaultRequestHeaders.Accept.Clear();
                 client.DefaultRequestHeaders.Add("Accept", "application/json");
+            }).
+            ConfigurePrimaryHttpMessageHandler(handler => new HttpClientHandler
+            {
+                AutomaticDecompression = DecompressionMethods.GZip
             });
 
             IAsyncPolicy<HttpResponseMessage> httpRetryPolicy =

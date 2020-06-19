@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using Polly;
+using Polly.NoOp;
 using Polly.Retry;
 
 namespace PollyPocAPIApplication.Controllers.PollyExecutingDelegateOnRetry
@@ -20,7 +21,8 @@ namespace PollyPocAPIApplication.Controllers.PollyExecutingDelegateOnRetry
         {
             _httpClientFactory = httpClientFactory;
             _httpRetryPolicy =
-                Policy.HandleResult<HttpResponseMessage>(r => !r.IsSuccessStatusCode)
+                Policy.
+                HandleResult<HttpResponseMessage>(r => !r.IsSuccessStatusCode)
                     .RetryAsync(3, onRetry: (httpResponseMessage, retryCount) =>
                     {
                         Console.WriteLine($"Retrying..{retryCount}");

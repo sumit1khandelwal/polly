@@ -29,7 +29,6 @@ D:\Personal\Polly-policies\src\PollyPocApplication\bin\Debug\netcoreapp3.1\Micro
 D:\Personal\Polly-policies\src\PollyPocApplication\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
 D:\Personal\Polly-policies\src\PollyPocApplication\bin\Debug\netcoreapp3.1\Microsoft.Net.Http.Headers.dll
 D:\Personal\Polly-policies\src\PollyPocApplication\bin\Debug\netcoreapp3.1\Polly.dll
-D:\Personal\Polly-policies\src\PollyPocApplication\obj\Debug\netcoreapp3.1\PollyPocApplication.csprojAssemblyReference.cache
 D:\Personal\Polly-policies\src\PollyPocApplication\obj\Debug\netcoreapp3.1\PollyPocApplication.AssemblyInfoInputs.cache
 D:\Personal\Polly-policies\src\PollyPocApplication\obj\Debug\netcoreapp3.1\PollyPocApplication.AssemblyInfo.cs
 D:\Personal\Polly-policies\src\PollyPocApplication\obj\Debug\netcoreapp3.1\PollyPocApplication.csproj.CopyComplete
