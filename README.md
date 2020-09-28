@@ -12,7 +12,7 @@ http://localhost:57697/api/catalog/2
 
 - Catalog controller returns successfull response 200 when only one of out four requests will succeed.
 
-<img src="src/images/retrywithoutpolly.JPG" />
+<img src="/src/images/retrywithoutpolly.JPG" />
 
 ## Retry n Times
 
@@ -20,7 +20,7 @@ http://localhost:57697/api/retry/catalog/2
 
 - Catalog controller returns 200 with same request and retry internally consecutive three times to internal api and then get the response.
 
-<img src="src/images/1%20-%20retry/retry-console.JPG" /> 
+<img src="/src/images/1%20-%20retry/retry-console.JPG" /> 
 <img src="src/images/1%20-%20retry/retryWithPolly.JPG"  />
 
 - Write a retry policy with handle and it's behaviour, apply to the httpClient.
