@@ -12,7 +12,7 @@ http://localhost:57697/api/catalog/2
 
 - Catalog controller returns successfull response 200 when only one of out four requests will succeed.
 
-<img src="/src/images/retrywithoutpolly.JPG" />
+<img src="../src/images/retrywithoutpolly.JPG" />
 
 ## Retry n Times
 
